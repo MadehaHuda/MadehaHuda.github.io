@@ -1,0 +1,182 @@
+.content{
+    position: relative;
+}
+
+.quiz{
+    margin: 0;
+    background-color: #9145CD;
+    padding: 0.7em;
+    border-radius: 0.3em;
+    color: white;
+}
+
+.map{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .button {
+    border-radius: 60%;
+    background-color: #FF8B8B;
+    box-shadow: 0px 0px 0px 9px #9145CD;
+    width: 15px;
+    height:15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+
+    background-image: url("location.png");
+
+}
+
+.button-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    font-size: smaller;
+}
+
+#paragraphNum {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+    font-weight: lighter;
+}
+
+#prev, #next {
+    font-size: smaller;
+}
+
+.info {
+    display: none;
+}
+
+#paragraph1 {
+    display: block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.info {
+    font-size: small;
+    text-align: justify;
+    padding: 10%;
+}
+
+.Jamuna,
+.Dhaka,
+.Buriganga,
+.Bandarban,
+.Sundarban,
+.Bay,
+.Cox,
+.Sylhet {
+    display: none;
+    background-color: white;
+    background-image: url('Bg.png');
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-color: wheat;
+    border-width: 3px;
+    border-inline-color: green;
+    margin: 0;
+    padding-top: 15px;
+    position: absolute;
+    z-index: 3;
+}
+
+h {
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Jamuna {
+    top: 130px;
+    left: 480px; 
+}
+
+.Dhaka {
+    top: 340px;
+    left: 550px;
+}
+
+.Buriganga {
+    top: 360px;
+    left: 250px;
+}
+
+.Bandarban {
+    top: 550px;
+    left: 830px;
+}
+
+.Sundarban {
+    top: 570px;
+    left: 130px;
+}
+
+.Bay {
+    top: 600px;
+    left: 430px;
+}
+
+.Cox {
+    top: 530px;
+    left: 550px;
+}
+
+.Sylhet {
+    top: 70px;
+    left: 700px;
+}
+
+#dhk {
+/*     margin: 324px 531px;
+ */
+margin: 37.4% 41.1%}
+
+#dhk-padma {
+    margin: 40.1% 37.6%}
+
+#sdn {
+    /* margin: 280px 400px; */
+    margin: 59.5% 28.2%;
+}
+
+#sdn-bay {
+    /* margin: 280px 400px; */
+    margin: 60.9% 30.9%;
+}
+
+
+#bdn {
+    margin: 55.6% 63.4%;
+}
+
+#jmn{
+    margin: 24.7% 34.8%;
+}
+
+#cxb {
+    margin: 60.9% 52.2%;
+}
+
+#slt{
+    margin: 24.7% 57.5%;
+}

@@ -1,0 +1,107 @@
+*{
+  font-family: 'Fredoka One', serif;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.banner{
+  background-color: #FAD85F;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Fredoka One', serif;
+  font-size: small;
+}
+
+nav {
+    background-color: #9145CD;
+    padding: 2rem;
+  }
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo{
+    width: 15%;
+    height: 15%;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    padding: 0 1rem;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #FAD85F;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  nav ul li a:hover {
+    color: #ACE7FA;
+  }
+
+  nav ul li a.active {
+    color: #ACE7FA;
+  }
+  
+  .grid-container {
+    float: left;
+    display: grid;
+    gap: 30px;
+    background-color: #6B9946;
+    padding: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .responsive-img:hover{
+    transform: scale(1.1);
+  }
+
+  span {
+    font-size: 20px;
+  }
+  
+  p{
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  a:link, a:visited,a:active{
+    text-decoration: none;
+  
+  }
+
+  a:hover {
+    color: #9145CD;
+  }

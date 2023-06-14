@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ Quiz</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="Quiz.css" />
+  </head>
+  <body>
+    <div>
+        <div class="start-screen">
+          <!-- <img id="image" src="./assets/certificate.png"> -->
+          <button id="start-button">Start</button>
+          <br>
+          <h3>You can only select once!</h3> 
+          <h3> Read carefully before choosing the correct option.</h3>
+        </div>
+        <div id="display-container">
+          <div class="header">
+            <div class="number-of-count">
+              <span class="number-of-question">1 of 3 questions</span>
+            </div>
+              <a href="./Explore.html">
+                <button class="close">Back to map</button>
+              </a>
+          </div>
+          <div id="container">
+            <!-- questions and options will be displayed here -->
+          </div>
+          <button id="next-button">Next</button>
+        </div>
+        <div class="score-container hide">
+          <div id="user-score"></div>
+          <button id="restart">Play again</button>
+          <button id="certificate">Get your certificate</button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="Quiz.js"></script>
+    <script src="QuizScript.js"></script>
+  </body>
+</html>
